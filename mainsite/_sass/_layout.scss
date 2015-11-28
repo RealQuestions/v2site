@@ -1,0 +1,72 @@
+.header-wrapper {
+  background-color: $header-color;
+  height: 59px;
+  width: 100%;
+}
+
+.header {
+  background-color: $header-color;
+  height: 59px;
+  margin: auto;
+  width: 80%;
+
+  h1 {
+    color: $header-h1-color;
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.logo {
+  float: left;
+  width: 80px;
+}
+
+nav {
+  float: right;
+}
+
+.nav-ul {
+  list-style-type: none;
+}
+
+.page-link {
+  color: $nav-color;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.form-el {
+  border:1px solid #C4BFBF;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.form-txt-box {
+  height: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+
+.form-select-box {
+  height: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 105%;
+}
+
+.form-txt-area {
+  height: 80px;
+  padding: 15px;
+  width: 100%;
+}
+
+input[type=text]:focus, textarea:focus, select:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 1px solid rgba(81, 203, 238, 1);
+}

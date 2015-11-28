@@ -1,0 +1,18 @@
+<div class="header-wrapper">
+    <div class="header">
+        <div class="logo">
+            <a href="{{ site.baseurl }}/index.html"><img src="../assets/index/logo.jpg" alt="Real Questions" class="image"></a>
+        </div>
+        
+        <nav>
+            {% assign pages = site.pages | sort:"weight"  %}
+            <ul class="nav-ul">
+                {% for my_page in pages %}
+                    {% if my_page.id %}
+                        <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.id }}</a>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </nav>
+    </div>
+</div>

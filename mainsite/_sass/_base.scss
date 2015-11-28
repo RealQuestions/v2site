@@ -1,0 +1,56 @@
+html {
+  overflow-y: scroll;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  color: $color;
+  margin: 0 auto;
+  width: $container-width;
+}
+
+.main {
+  float: left;
+  width: $main-width;
+}
+
+.side {
+  float: right;
+  width: $side-width;
+}
+
+.sidebar-content {
+  h1 {
+    color: $header-h1-color;
+    font-size: $header-h1-size;
+    font-weight: normal;
+  }
+
+  hr {
+    margin-top: -14px;
+  }
+}
+
+.heading {
+  margin: 0 auto;
+  width: $container-width;
+
+  h1 {
+    color: $header-h1-color;
+    font-size: $header-h1-size;
+    font-weight: normal;
+    padding-top: 20px;
+  }
+}
+
+hr {
+  color: $hr-color;
+}
+
+.image {
+  width: 100%;
+}
