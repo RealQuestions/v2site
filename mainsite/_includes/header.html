@@ -1,9 +1,10 @@
 <div class="header-wrapper">
     <div class="header">
         <div class="logo">
-            <a href="{{ site.baseurl }}/index.html"><img src="../assets/index/logo.jpg" alt="Real Questions" class="image"></a>
+            <a href="{{ site.baseurl }}/index.html"><img src="{{ site.url }}/assets/index/logo.jpg" alt="Real Questions" class="image"></a>
+            <!-- Changed "../assets" to {{ site.url }} -->
         </div>
-        
+
         <nav>
             {% assign pages = site.pages | sort:"weight"  %}
             <ul class="nav-ul">

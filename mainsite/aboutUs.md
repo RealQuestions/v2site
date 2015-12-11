@@ -40,4 +40,4 @@ To respond, please use the response form on the "Contact" section of the website
 The site is now complete, although we are working to improve a lot of its features, and improve quality. Our current focus is building an online community around the site.
 
 Contact
-Charles Jago 0403 902 613  or  Erle Pereira 0434 358 351
+Charles Jago 0403 902 613  or  Erle Pereira 0434 358 351 

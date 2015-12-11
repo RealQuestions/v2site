@@ -4,6 +4,11 @@ html {
 body {
   margin: 0;
   padding: 0; }
+  body p {
+    font-family: "proxima-nova"; }
+
+h1, h2 {
+  font-family: 'Exo 2', sans-serif; }
 
 .container {
   color: #333;
@@ -52,6 +57,7 @@ hr {
   width: 80%; }
   .header h1 {
     color: #333;
+    color: blue;
     float: left;
     margin: 0;
     padding: 0; }

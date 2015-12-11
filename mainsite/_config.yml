@@ -3,9 +3,9 @@ description: "My Site"
 
 url: "http://localhost:4000"
 
-paginate: 10
-gems: [jekyll-paginate]
-paginate_path: "page:num"
+# paginate: 10
+# gems: [jekyll-paginate]
+# paginate_path: "page:num"
 
 markdown: kramdown
 permalink: pretty
