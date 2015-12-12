@@ -5,7 +5,8 @@ body {
   margin: 0;
   padding: 0; }
   body p {
-    font-family: "proxima-nova"; }
+    font-family: "proxima-nova";
+    font-size: 14px; }
 
 h1, h2 {
   font-family: 'Exo 2', sans-serif; }
@@ -18,6 +19,11 @@ h1, h2 {
 .main {
   float: left;
   width: 650px; }
+  .main h3 {
+    font-family: "akagi-pro",sans-serif;
+    font-weight: 600;
+    color: #444444;
+    font-size: 16px; }
 
 .side {
   float: right;
@@ -35,9 +41,10 @@ h1, h2 {
   width: 1000px; }
   .heading h1 {
     color: #333;
-    font-size: 20px;
-    font-weight: normal;
-    padding-top: 20px; }
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 20px;
+    color: #444444; }
 
 hr {
   color: #fff; }
@@ -105,6 +112,9 @@ input[type=text]:focus, textarea:focus, select:focus {
     #nav .navbar-main .navbar-nav > li > a {
       color: white;
       font-size: 16px; }
+    #nav .navbar-main .navbar-nav > li > a:hover {
+      background-color: #3F98E4;
+      color: white; }
 
 #hero {
   color: white;
@@ -143,9 +153,6 @@ input[type=text]:focus, textarea:focus, select:focus {
       font-weight: 300;
       margin-top: 20px;
       max-width: 600px; }
-    @media (max-width: 991px) {
-      #hero .hero-content p {
-        margin-top: 20px; } }
   #hero .front-image {
     position: absolute;
     top: 0;
@@ -210,6 +217,9 @@ input[type=text]:focus, textarea:focus, select:focus {
   #hero .no-touch .front:hover .shade-overlay {
     opacity: .7; }
 
+#features .feature-full {
+  margin-top: 60px;
+  margin-bottom: 60px; }
 #features h2 {
   font-family: 'Exo 2', sans-serif;
   margin-bottom: 80px;

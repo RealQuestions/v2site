@@ -6,8 +6,8 @@ body {
   margin: 0;
   padding: 0;
     p{
-
         font-family: "proxima-nova";
+        font-size:14px;
     }
 }
 
@@ -24,6 +24,15 @@ h1, h2 {
 .main {
   float: left;
   width: $main-width;
+
+  h3 {
+    font-family: "akagi-pro",sans-serif;
+    font-weight: 600;
+    color: #444444;
+    font-size: 16px;
+  }
+
+
 }
 
 .side {
@@ -49,9 +58,11 @@ h1, h2 {
 
   h1 {
     color: $header-h1-color;
-    font-size: $header-h1-size;
-    font-weight: normal;
+  //  font-size: $header-h1-size;
+  font-size: 50px;
+    font-weight: 700;
     padding-top: 20px;
+    color: #444444
   }
 }
 

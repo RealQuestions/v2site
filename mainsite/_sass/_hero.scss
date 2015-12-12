@@ -1,12 +1,9 @@
-
-
 #hero {
   color:white;
   margin-bottom:50px;
   background-color:#444444;
 //  background-repeat: no-repeat;
 //  background-size: 100% 100%;
-
 
   .cta {
      color:white;
@@ -26,10 +23,7 @@
       color:white;
       border:1px solid $blue;
       background-color: $blue
-
     }
-
-
 
   .hero-content {
     padding-left:0px;
@@ -46,7 +40,6 @@
       .blue {
         color: #34A1FF;
       }
-
     }
 
     p{
@@ -56,18 +49,10 @@
       margin-top: 20px;
       max-width: 600px;
     }
-
-     @media (max-width: 991px) {
-
-        p{
-          margin-top: 20px;
-        }
-     }
-
 }
 
+/* Front Image  Styles */
 
-    /* Front Image  Styles */
     .front-image {
         position: absolute;
         top: 0;
@@ -88,7 +73,6 @@
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
     }
-
 
     .no-touch.csstransitions .front:not(.vimeo):not(.header):hover .front-image {
         -webkit-transition: -webkit-transform 10s cubic-bezier(.25, .46, .45, .94);
