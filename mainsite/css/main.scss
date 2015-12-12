@@ -12,8 +12,12 @@ $header-h1-color: #333;
 $header-h1-size: 20px;
 $hr-color: #fff;
 
+$blue: #0071AB;
+
 @import
         "base",
         "layout",
-        "nav"
+        "nav",
+        "hero",
+        "features"
 ;
