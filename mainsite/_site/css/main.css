@@ -45,32 +45,16 @@ hr {
 .image {
   width: 100%; }
 
-.header-wrapper {
-  background-color: #333;
-  height: 59px;
-  width: 100%; }
-
-.header {
-  background-color: #333;
-  height: 59px;
-  margin: auto;
-  width: 80%; }
-  .header h1 {
-    color: #333;
-    color: blue;
-    float: left;
-    margin: 0;
-    padding: 0; }
+.header h1 {
+  color: #333;
+  color: blue;
+  float: left;
+  margin: 0;
+  padding: 0; }
 
 .logo {
   float: left;
   width: 80px; }
-
-nav {
-  float: right; }
-
-.nav-ul {
-  list-style-type: none; }
 
 .page-link {
   color: #fff;
@@ -105,3 +89,19 @@ nav {
 input[type=text]:focus, textarea:focus, select:focus {
   box-shadow: 0 0 5px #51cbee;
   border: 1px solid #51cbee; }
+
+#nav {
+  background-color: #444444; }
+  #nav .navbar-main {
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+    margin-bottom: 0px; }
+    #nav .navbar-main .navbar-header .navbar-brand {
+      padding-top: 0px;
+      padding-bottom: 0px; }
+      #nav .navbar-main .navbar-header .navbar-brand img {
+        height: 50px;
+        width: auto; }
+    #nav .navbar-main .navbar-nav > li > a {
+      color: white;
+      font-size: 16px; }

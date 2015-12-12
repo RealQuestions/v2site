@@ -1,0 +1,22 @@
+{
+  "name": "rqdev",
+  "version": "1.0.0",
+  "description": "Real Questions Frontend dev stie",
+  "main": "index.js",
+  "dependencies": {
+    "ruby": "^0.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u001b[2~\u001b[2~\u001b[2~\u0016\u0016\u001b[2~\u001b[2~\u001b[2~\u001b[2~\u001b[2~\u001b[2~\u001b[2~\u001b[2~\u001b[2~\u001b[2~\u0016\u0016\u001b[2~\u001b[2~https://github.com/PatGrossmann/v2site.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Patrick Grossmann",
+  "license": "MIT"
+}

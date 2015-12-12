@@ -32,9 +32,9 @@ weight: 4
         <option value="technical-issues">Technical Issues</option>
         <option value="volunteer">Volunteer</option>
         <option value="website-feedback">Website Feedback</option>
-    </select> 
+    </select>
     <br />
-    
+
     <label for="message">Message</label>
     <textarea cols="4" id="message" class="form-el form-txt-area">
 
