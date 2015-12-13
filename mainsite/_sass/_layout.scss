@@ -1,17 +1,9 @@
-.header-wrapper {
-  background-color: $header-color;
-  height: 59px;
-  width: 100%;
-}
 
 .header {
-  background-color: $header-color;
-  height: 59px;
-  margin: auto;
-  width: 80%;
 
   h1 {
     color: $header-h1-color;
+    color: blue;
     float: left;
     margin: 0;
     padding: 0;
@@ -23,13 +15,6 @@
   width: 80px;
 }
 
-nav {
-  float: right;
-}
-
-.nav-ul {
-  list-style-type: none;
-}
 
 .page-link {
   color: $nav-color;
