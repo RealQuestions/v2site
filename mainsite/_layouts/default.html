@@ -3,23 +3,25 @@
 
 {% include head.html %}
 
-<body>  
+<body>
     {% include header.html %}
-    
-    <div class="heading">
+
+    <div class="container">
+
+    <div class="heading col-xs-12">
         <h1>{{ page.id }}</h1>
     </div>
 
     <hr>
 
-    <div class="container">
-        <div class="main">
-            {{ content }}
-        </div>
-
-        <div class="side">
-            {% include sidebar.html %}
-        </div>
+    <div class="main col-xs-12 col-md-8">
+        {{ content }}
     </div>
+
+    <div class="side col-xs-12 col-md-4">
+        {% include sidebar.html %}
+    </div>
+
+    </div> <!-- End Container -->
 </body>
 </html>
