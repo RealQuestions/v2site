@@ -10,7 +10,7 @@
   }
 
   h2{
-   font-family: 'Exo 2', sans-serif;
+    font-family: 'Exo 2', sans-serif;
     margin-bottom:80px;
     color: #444444;
     text-align: center;
@@ -18,12 +18,20 @@
   }
 
   h3{
-      font-family: "akagi-pro",sans-serif;
-      font-weight: 800;
-      color: #444444;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    text-align: center;
+    color: #1f1f1f;
   }
 
+
   p{
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 150%;
+    font-weight: 300;
+    color: #696969;
     font-size: 16px;
   }
 
@@ -38,6 +46,25 @@
 
   .row{
     margin-bottom:60px;
+  }
+
+}
+
+
+/* Feautre Section - Page-About */
+
+#features2 {
+
+  .feature-row {
+  padding: 100px 0px 100px 0px
+  }
+
+   .feature-row .byline {
+  }
+
+   .feature-row .img-circle {
+    width:25%!important;
+    height:25%!important;
   }
 
 }
