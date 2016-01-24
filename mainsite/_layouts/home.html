@@ -11,12 +11,15 @@
       <section id ="hero">
             <!-- Header Image -->
 
+          <article class="front image">
+             <div class="front-image" style="background-image:url({{ my_page.url | prepend: site.baseurl }}/assets/header-bg.jpg);opacity: 0.6; filter: alpha(opacity=50); z-index:10;  "></div>
+
             <div class = "container hero-content">
 
                   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
                       <h1> Democracy <br/> Online</h1>
                       <p> Ask politicians questions that matter to you. Real Questions provides a platform for people to ask effective questions, and show the extent of user support for them.</p>
-                      <button type="button" class="btn btn-primary cta">Get Early Facebook Acess <i class="fa fa-chevron-right"></i></button></a>
+                      <button type="button" class="btn btn-primary cta" onclick="location.href='https://realquestions.net.au/fbapp/earlyaccess';">Get Early Facebook Acess <i class="fa fa-chevron-right"></i></button></a>
                   </div>
 
                  <div class="image-container col-xs-4 col-sm-6 col-sm-offset-2 col-md-6 col-lg-6">
@@ -44,7 +47,7 @@ By making use of social media and Australia's largest online politcal database, 
 Getting started on the Real Questions platform couldn't be easier. Simply create an account and start engaging with other politically minded people straight away. </p>
 
 
-        <div class="feature col-xs-12">
+        <div class="feature col-md-4">
 
               <center>
 
@@ -110,6 +113,7 @@ Getting started on the Real Questions platform couldn't be easier. Simply create
     <center><h2>Upcoming Features</h2></center>
 
 
+        <img src="{{ my_page.url | prepend: site.baseurl }}/assets/ipad.png"/>
 
       <!-- Full Feature 1 -->
 
@@ -124,6 +128,8 @@ Getting started on the Real Questions platform couldn't be easier. Simply create
             <p> Take advantage of Australia's largest online political database and find the politicians your looking for.  <br/></br>
                 Whether you're after your local representative or the Prime Minister, Real Questions advanced search functionality makes finding the right politicians and questions breeze. </p>
 
+
+        <img src="{{{ my_page.url | prepend: site.baseurl }}/assets/ipad.png"/>
 
 
    </div>
@@ -140,7 +146,9 @@ Getting started on the Real Questions platform couldn't be easier. Simply create
                   <hr/>
                 <p>Stay on the top of a politician's current political status, political party, user interest and recent questions and answers.</p>
 
-            </div>
+
+        <img src="{{ my_page.url | prepend: site.baseurl }}/assets/ipad.png"/>
+
 
 
             <div class="col-xs-4 col-sm-6 col-md-8 col-lg-8">
