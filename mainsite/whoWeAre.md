@@ -1,8 +1,8 @@
 ---
 layout: default
-title: About Us
-id: About Us
-permalink: /aboutUs/
+title: Who We Are
+id: Who We Are
+permalink: /whoWeAre/
 weight: 2
 ---
 
