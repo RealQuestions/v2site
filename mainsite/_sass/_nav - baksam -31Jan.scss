@@ -1,0 +1,271 @@
+.header {
+  -webkit-transition: height .2s; /* For Safari 3.1 to 6.0 */
+  -webkit-transition-timing-function: linear; /* Safari */
+  transition: height .2s;
+  transition-timing-function: linear;
+  background-color: #F6A7A7;
+  height: 120px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 40;
+}
+
+.brand {
+  -webkit-transition: width .2s, margin-top .2s; /* For Safari 3.1 to 6.0 */
+  -webkit-transition-timing-function: linear; /* Safari */
+  transition: width .2s, margin-top .2s;
+  transition-timing-function: linear;
+  color: grey;
+  float: left;
+  font-family: 'myriad web pro';
+  width: 270px;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.container, #hero, .hero-content {
+  -webkit-transition: padding-top .2s; /* For Safari 3.1 to 6.0 */
+  -webkit-transition-timing-function: linear; /* Safari */
+  transition: padding-top .2s;
+  transition-timing-function: linear;
+  width: 100%;
+  padding-top: 120px;
+}
+
+/*Navbar -------------------------------------------------*/
+
+.nav-wrapper {
+  float: right;
+  /*display: none;*/
+  margin-right: 10px;
+}
+
+.nav-ul {
+  display: inline-block;
+  font-family: 'myriad web pro';
+  list-style-type: none;
+  position: relative;
+}
+
+.nav-li {
+  float: left;
+  white-space: nowrap;
+}
+
+.nav-li a {
+  -webkit-transition: background-color .2s, color .2s; /* For Safari 3.1 to 6.0 */
+  transition: background-color .2s, color .2s;
+  color: white;
+  display: block;
+  padding: 15px;
+  text-decoration: none !important;
+}
+
+.nav-li a:hover {
+  background-color: #CE8585;
+  color: white;
+}
+
+.caret {
+  font-family: 'arial';
+  font-size: 10px;
+  padding-top: 2px;
+}
+
+.dropdown-menu-test {
+  -webkit-transition: max-height .2s, opacity .2s; /* For Safari 3.1 to 6.0 */
+  -webkit-transition-timing-function: linear; /* Safari */
+  transition: max-height .2s, opacity .2s;
+  transition-timing-function: linear;
+  max-height: 0;
+  overflow: hidden;
+  right: -30%;
+  list-style-type: none;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 1px solid white;
+  opacity: 0;
+}
+
+.dropdown {
+  cursor: pointer;
+}
+
+.a-dropdown-active {
+  background-color: #CE8585;
+  color: white !important;
+}
+
+.dropdown:hover>.dropdown-menu-test {
+  max-height: 200px;
+  opacity: 1;
+}
+
+.dropdown-menu-test-active {
+  max-height: 200px;
+}
+
+.li-sub {
+  float: none;
+  text-align: center;
+}
+
+.a-sub {
+  background-color: #CE8585;
+  color: white !important;
+}
+
+.a-sub:hover {
+  background-color: #B6B6B6 !important;
+  color: white !important;
+}
+
+/*Navbar Button------------------------------------------*/
+
+/*Fixes the button sizing in firefox*/
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.nav-button {
+  background-color: #E8E8E8;
+  border: 1px solid grey;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  float: right;
+  padding: 6px 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  right: 10px;
+  top: 18px !important;
+}
+
+.nav-button-active {
+  background-color: white;
+}
+
+.line {
+  background-color: grey;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  display: block;
+  height: 2px;
+  margin-top: 5px;
+  width: 25px;
+}
+
+/*Media Queries ---------------------------------*/
+
+@media only screen and (min-width: 760px) {
+  .brand {
+    margin-top: 40px;
+    width: 390px;
+  }
+
+  .nav-ul {
+    -webkit-transition: margin-top .2s; /* For Safari 3.1 to 6.0 */
+    -webkit-transition-timing-function: linear; /* Safari */
+    transition: margin-top .2s;
+    transition-timing-function: linear;
+    margin: 33px 0 0;
+  }
+
+  .nav-button {
+    display: none;
+  }
+
+  /*Scroll effects--------*/
+  .header-scroll {
+    height: 50px;
+  }
+
+  .brand-scroll {
+    margin-top: 12px;
+    width: 270px;
+  }
+
+  .nav-ul-scroll {
+    margin-top: 0;
+  }
+
+  .container-scroll {
+    padding-top: 70px;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .header {
+    height: auto;
+    overflow: auto;
+    position: static;
+  }
+
+  .nav-wrapper {
+    display: block;
+    float: none;
+    margin-right: 0;
+    margin-top: 80px;
+    width: 100%;
+  }
+
+  .nav-ul {
+    -webkit-transition: max-height .8s; /* For Safari 3.1 to 6.0 */
+    -webkit-transition-timing-function: linear; /* Safari */
+    transition: max-height .8s;
+    transition-timing-function: linear;
+    background-color: #B57676;
+    clear: both;
+    display: block;
+    max-height: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+  }
+
+  .nav-ul-active {
+    /*This has to be a value that's greater than the element's height or it will be cut off*/
+    max-height: 500px;
+  }
+  
+  .nav-li {
+    float: none;
+    width: 100%;
+  }
+
+  .dropdown-menu-test {
+    border: 0;
+    position: static;
+  }
+
+  .li-sub {
+    text-align: left;
+  }
+
+  .container, #hero, .hero-content {
+    padding-top: 80px;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 760px) {
+  .header {
+    height: auto;
+    overflow: auto;
+  }
+
+  .brand {
+    margin-top: 30px;
+    width: 270px;
+  }
+
+  .nav-button {
+    display: block;
+  }
+}

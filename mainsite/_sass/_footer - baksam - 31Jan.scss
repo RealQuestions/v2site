@@ -1,0 +1,49 @@
+#footer {
+  color:white;
+  padding-top:80px;
+  padding-bottom:100px;
+  background-color: #4C96D1;
+  background-position: top left;
+  background-attachment: fixed;
+  //background-image: url(../assets/rectangles.png);
+  background-repeat: repeat;
+
+  #contact {
+
+      form input[type='email'],
+      form input[type='text'] {
+        background-color:  #fff;
+        color: #666666;
+        font-size: 0.8em;
+        margin-bottom:20px;
+      }
+
+      form input[type='email']:focus,
+      form input[type='text']:focus {
+        background-color: #fff;
+      }
+
+      form textarea {
+        background-color: #CCCCCC;
+        color: #666666;
+        font-size: 0.8em;
+      }
+
+      form textarea:focus {
+        background-color: #fff;
+      }
+
+      form .btn {
+        font-size: 11px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
+
+       form .media {
+        padding-top: 24px;
+      }
+
+  }
+
+}
