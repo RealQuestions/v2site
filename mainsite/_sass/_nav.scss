@@ -3,7 +3,7 @@
   -webkit-transition-timing-function: linear; /* Safari */
   transition: height .2s;
   transition-timing-function: linear;
-  background-color: #F6A7A7;
+  background-color: #333;
   height: 120px;
   position: fixed;
   width: 100%;
@@ -18,12 +18,17 @@
   transition-timing-function: linear;
   color: grey;
   float: left;
-  font-family: 'myriad web pro';
+  font-family: 'Exo 2', sans-serif;
   width: 270px;
-  margin-left: 10px;
-  margin-top: 30px;
+  margin-left: 50px;
 }
-
+.brand div {float:left;}
+.brand a {font-size:72px;}
+.brand a:hover {text-decoration:none;}
+.brand div.logoR {color:#fff;}
+.brand div.logoO, .brand div.question {font-size:45px; margin-top:11px; color:#4B94CF;}
+.brand div.question { transform: rotate(270deg); -webkit-transform: rotate(270deg); -moz-transform: rotate(270deg); margin-top:37px; margin-left:-10px;}
+.brand .tagline {margin-top:50px; margin-left:20px; color:#fff; font-size:25px;}
 .container, #hero, .hero-content {
   -webkit-transition: padding-top .2s; /* For Safari 3.1 to 6.0 */
   -webkit-transition-timing-function: linear; /* Safari */
@@ -43,9 +48,10 @@
 
 .nav-ul {
   display: inline-block;
-  font-family: 'myriad web pro';
+  font-family: 'Exo 2', sans-serif;
   list-style-type: none;
   position: relative;
+  font-size:20px;
 }
 
 .nav-li {
@@ -63,8 +69,8 @@
 }
 
 .nav-li a:hover {
-  background-color: #CE8585;
-  color: white;
+  background-color: #fff;
+  color: #000;
 }
 
 .caret {
@@ -97,8 +103,8 @@
 }
 
 .a-dropdown-active {
-  background-color: #CE8585;
-  color: white !important;
+  background-color: #fff;
+  color: #000 !important;
 }
 
 .dropdown:hover>.dropdown-menu-test {
@@ -113,16 +119,18 @@
 .li-sub {
   float: none;
   text-align: center;
+  min-width:160px;
 }
 
 .a-sub {
-  background-color: #CE8585;
+  background-color: #333;
   color: white !important;
+  font-size:15px;
 }
 
 .a-sub:hover {
-  background-color: #B6B6B6 !important;
-  color: white !important;
+  background-color: #fff !important;
+  color: #4B94CF !important;
 }
 
 /*Navbar Button------------------------------------------*/
@@ -166,7 +174,7 @@ button::-moz-focus-inner {
 
 @media only screen and (min-width: 760px) {
   .brand {
-    margin-top: 40px;
+    margin-top: 0px;
     width: 390px;
   }
 
@@ -184,13 +192,17 @@ button::-moz-focus-inner {
 
   /*Scroll effects--------*/
   .header-scroll {
-    height: 50px;
+    height: 60px;
   }
 
   .brand-scroll {
-    margin-top: 12px;
+    /*margin-top: 12px;*/
     width: 270px;
   }
+  .brand-scroll .tagline {display:none;}
+  .brand-scroll .logoR {font-size:60%;}
+  .brand-scroll .logoO {font-size: 45% !important; margin-top: 2px !important;}
+  .brand-scroll .question {font-size: 45% !important; margin-top: 22px !important;}
 
   .nav-ul-scroll {
     margin-top: 0;
@@ -207,7 +219,7 @@ button::-moz-focus-inner {
     overflow: auto;
     position: static;
   }
-
+  .brand .tagline {display:none;}
   .nav-wrapper {
     display: block;
     float: none;
