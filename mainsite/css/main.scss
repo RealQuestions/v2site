@@ -11,7 +11,7 @@ $header-color: #333;
 $header-h1-color: #333;
 $header-h1-size: 20px;
 $hr-color: #fff;
-
+#footer #contact .contact-info a {color:#fff !important;}
 $blue: #0071AB;
 
 @import
@@ -19,5 +19,6 @@ $blue: #0071AB;
         "layout",
         "nav",
         "hero",
-        "features"
+        "features",
+		"footer"
 ;

@@ -77,3 +77,6 @@ hr {
 .responsive-image {
   max-width: 100%;
 }
+
+@media (max-width:760px){
+.col-100 {width:100% !important;}}
