@@ -11,16 +11,16 @@
     <div class="nav-wrapper">
         <nav>
             <ul class="nav-ul">
-                <li class="nav-li"><a href="/index.html">Home</a></li>
+                <li class="nav-li"><a href="{{" " | prepend: site.baseurl }}">Home</a></li>
                 <li class="nav-li dropdown">
                     <a class="a-dropdown">About Us <span class="caret"></span></a>
                     <ul class="dropdown-menu-test">
-                        <li class="nav-li li-sub"><a href="/whoWeAre/" class="a-sub">Who We Are</a></li>
-						<li class="nav-li li-sub"><a href="/privacy/"class="a-sub">Privacy Policy</a></li>
-                        <li class="nav-li li-sub"><a href="/terms/"class="a-sub">Terms of Use</a></li>
+                        <li class="nav-li li-sub"><a href="{{"/whoWeAre/ "| prepend: site.baseurl }}" class="a-sub">Who We Are</a></li>
+						<li class="nav-li li-sub"><a href="{{"/privacy/ "| prepend: site.baseurl }}" class="a-sub">Privacy Policy</a></li>
+                        <li class="nav-li li-sub"><a href="{{"/terms/"| prepend: site.baseurl }}" class="a-sub">Terms of Use</a></li>
                     </ul>
                 </li>
-                <li class="nav-li"><a href="/contactUs/">Contact Us</a></li>
+                <li class="nav-li"><a href="{{"/contactUs/"| prepend: site.baseurl }}">Contact Us</a></li>
             </ul>
         </nav>
     </div>

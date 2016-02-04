@@ -226,8 +226,8 @@ fb.views.PostUI = Backbone.View.extend({
                 name:'RealQuestions Application',
                 link:'http://realquestions.net.au/',
                 picture:'http://realquestions.net.au/fbapp/earlyaccess/img/' + pic + '.jpg',
-                caption:'by RealQuestions',
-                description:'This is a simple application that shows how to use the Facebook JavaScript SDK and the Graph API.',
+                caption:'via RealQuestions',
+                description:'Posted using the new RealQuestions (Australia) Facebook app. You can too get Early Access too.',
                 ref:pic,
             },
             function (response) {
