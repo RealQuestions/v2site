@@ -19,6 +19,7 @@ h1, h2 {
   color: $color;
   margin: 0 auto;
   width: $container-width;
+  margin-bottom: 50px;
 }
 
 .main {
@@ -40,6 +41,7 @@ h1, h2 {
   width: $side-width;
 }
 
+/*
 .sidebar-content {
   h1 {
     color: $header-h1-color;
@@ -51,6 +53,7 @@ h1, h2 {
     margin-top: -14px;
   }
 }
+*/
 
 .heading {
   margin: 0 auto;
