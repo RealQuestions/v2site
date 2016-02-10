@@ -25,9 +25,18 @@
 .brand div {float:left;}
 .brand a {font-size:72px;}
 .brand a:hover {text-decoration:none;}
-.brand div.logoR {color:#fff;}
-.brand div.logoO, .brand div.question {font-size:45px; margin-top:11px; color:#4B94CF;}
-.brand div.question { transform: rotate(270deg); -webkit-transform: rotate(270deg); -moz-transform: rotate(270deg); margin-top:37px; margin-left:-10px;}
+.brand div.logoR {color:#fff; margin-right: -5px;  font-weight: bold;}
+.brand div.logoO, .brand div.question {font-size:52px; margin-top:7px; font-weight:bold; color:#4B94CF;}
+.brand div.question { 
+  transform: rotate(-48deg); 
+  -webkit-transform: rotate(-48deg);
+   
+  -moz-transform: rotate(-48deg); 
+  margin-top:35px; 
+  margin-left:-7px;
+  
+  font-weight:bold;
+  font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif; }
 .brand .tagline {margin-top:50px; margin-left:20px; color:#fff; font-size:25px;}
 .container, #hero, .hero-content {
   -webkit-transition: padding-top .2s; /* For Safari 3.1 to 6.0 */
@@ -86,7 +95,7 @@
   transition-timing-function: linear;
   max-height: 0;
   overflow: hidden;
-  right: -30%;
+  right: -28%;
   list-style-type: none;
   padding: 0;
   position: absolute;

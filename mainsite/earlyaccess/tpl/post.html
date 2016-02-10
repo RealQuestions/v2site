@@ -2,33 +2,32 @@
 
 <form class="form-horizontal">
     <div class="control-group">
-        <label class="control-label">Name</label>
+        <label class="control-label">Question summary</label>
         <div class="controls">
-            <input type="text" class="input-xxlarge itemName" value="Sociogram Application"/>
+            <input type="text" class="input-xxlarge itemName" value=""/>
         </div>
     </div>
+    
     <div class="control-group">
-        <label class="control-label">Caption</label>
-        <div class="controls">
-            <input type="text" class="input-xxlarge caption" value="by Christophe Coenraets"/>
-        </div>
-    </div>
+        <label class="control-label">Select a category to suit</label>
+<select class="image-picker picture show-html">
+  <option data-img-src="/assets/earlyaccess/climatechange-sm.jpg" value="climatechange"> Climate Change  </option>
+  <option data-img-src="/assets/earlyaccess/economy-sm.jpg" value="economy"> Economy </option>
+  <option data-img-src="/assets/earlyaccess/employment-sm.jpg" value="employment"> Employment </option>
+  <option data-img-src="/assets/earlyaccess/transport-sm.jpg" value="transport"> Transport </option>
+</select>
+</div>
+<script>
+        $("select").imagepicker({
+          hide_select : true,
+          show_label  : false
+        })
+</script>
+      
     <div class="control-group">
-        <label class="control-label">Link</label>
+        <label class="control-label">Question description</label>
         <div class="controls">
-            <input type="text" class="input-xxlarge link" value="http://coenraets.org/sociogram"/>
-        </div>
-    </div>
-    <div class="control-group">
-        <label class="control-label">Picture</label>
-        <div class="controls">
-            <input type="text" class="input-xxlarge picture" value="http://coenraets.org/sociogram/img/sociogram.jpg"/>
-        </div>
-    </div>
-    <div class="control-group">
-        <label class="control-label">Description</label>
-        <div class="controls">
-            <textarea class="input-block-level description" rows="4">A sample application that demonstrates how to use the Facebook JavaScript SDK and the Graph API.</textarea>
+            <textarea class="form-control description" placeholder="Try to be as clear as possible, aim to highlight your intentions and your expectations. Also, please be kind & decent and above all positive." rows="8" cols="8"></textarea>
         </div>
     </div>
     <div class="control-group">
@@ -38,7 +37,4 @@
     </div>
 </form>
 
-<br/>
-<div class="alert alert-info">
-    You can also use the Facebook UI dialog. Check out <a href="#postui">this example</a>.
-</div>
+

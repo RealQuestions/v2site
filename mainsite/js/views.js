@@ -184,10 +184,19 @@ fb.views.Post = Backbone.View.extend({
     postMessage: function () {
         var status = {
                 name:$('.itemName').val(),
-                link:$('.link').val(),
-                picture:$('.picture').val(),
-                caption:$('.caption').val(),
-                description:$('.description').val()
+                link:'https://realquestions.net.au/assets/fbapp/earlyaccess/' + $('.picture').val(),
+                description:$('.description').val(),
+                message: 'Real Questions #RQau ' + 'https://realquestions.net.au/fbapp/assets/earlyaccess/' + $('.picture').val() + '-sm.jpg',
+            		message_tags:  {
+          		  "0": [
+              		{
+    		            "id": "261267947304538",
+            		    "name": "Real Questions",
+    		            "offset": 0,
+    		            "length": 14,
+    		            "type": "page"
+              	  	 }
+              		]}        		
             };
         FB.api('/me/feed', 'post', status, function(response) {
             if (response && response.id) {
@@ -227,14 +236,15 @@ fb.views.PostUI = Backbone.View.extend({
                 link:'http://realquestions.net.au/',
                 picture:'http://realquestions.net.au/fbapp/earlyaccess/img/' + pic + '.jpg',
                 caption:'via RealQuestions',
-                description:'Posted using the new RealQuestions (Australia) Facebook app. You can too get Early Access too.',
+                description:'RealQuestions (Australia) EarlyAccess - Please tag us #RQau',
                 ref:pic,
+                to: '261267947304538'
             },
             function (response) {
                 if (response && response.id) {
                     alert('Your post was published.');
                 } else {
-                    alert('Your post was not published.');
+                    alert('Your post was not published. ' . response);
                 }
             }
         );
