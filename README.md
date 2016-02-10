@@ -7,7 +7,9 @@ The workflow we use
 
 to get it working locally:
 1. Check out the repo (Make changes to the develop branch only please as far as possible)
+
 2. copy mainsite/js/facebook.js.sample to mainsite/js/facebook.js 
+
 3. Edit this new facebook.js
 
 Look for this section & change the appId to your developer app id on facebook
@@ -22,4 +24,5 @@ Look for this section & change the appId to your developer app id on facebook
 ```
 
 4. Thats it! Run jekyll serve & begin fixing the code ;)
+
 5. **Bonus**  submit your fixes  to us
