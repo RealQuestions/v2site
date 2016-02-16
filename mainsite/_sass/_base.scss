@@ -5,9 +5,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-    p{
+    p {
         font-family: "proxima-nova";
-        font-size:14px;
+        font-size: .34em;
     }
 }
 
@@ -15,15 +15,31 @@ h1, h2 {
   font-family: 'Exo 2', sans-serif;
 }
 
+.heading-wrapper {
+  font-family: 'Exo 2', sans-serif;
+  background-color: #4C96D1;
+  overflow: auto;
+  width: 100%;
+}
+
+.heading {
+  width: 100% !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .container {
+  padding-top: 20px;
+  padding-bottom: 10px;
   color: $color;
   margin: 0 auto;
-  width: $container-width;
+  width: 100% !important;
 }
 
 .main {
   float: left;
   width: $main-width;
+  font-size: 3em !important;
 
   h3 {
     font-family: "akagi-pro",sans-serif;
@@ -31,8 +47,6 @@ h1, h2 {
     color: #444444;
     font-size: 16px;
   }
-
-
 }
 
 .side {
@@ -58,11 +72,11 @@ h1, h2 {
 
   h1 {
     color: $header-h1-color;
+    margin-left: 15px;
   //  font-size: $header-h1-size;
-  font-size: 50px;
+  font-size: 35px;
     font-weight: 700;
-    padding-top: 20px;
-    color: #444444
+    color: #ffffff;
   }
 }
 
@@ -80,3 +94,22 @@ hr {
 
 @media (max-width:760px){
 .col-100 {width:100% !important;}}
+
+@media only screen and (max-width: 400px){
+  .heading {
+    h1 {
+      font-size: 30px;
+    }
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 991px){
+  .side {
+    float: none;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
