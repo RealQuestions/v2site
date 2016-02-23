@@ -22,7 +22,6 @@
   width: auto;
   margin-left: 10px;
 }
-<<<<<<< HEAD
 //.brand div {float:left;}
 //.brand a {font-size:72px;}
 //.brand a:hover {text-decoration:none;}
@@ -76,7 +75,6 @@
 
 //.brand .tagline {margin-top:50px; margin-left:20px; color:#fff; font-size:25px;}
 .heading-wrapper, #hero, .hero-content {
-=======
 .brand div {float:left;}
 .brand a {font-size:72px;}
 .brand a:hover {text-decoration:none;}
@@ -91,10 +89,11 @@
   margin-left:-7px;
   
   font-weight:bold;
-  font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif; }
+  font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif; 
+}
+}
 .brand .tagline {margin-top:50px; margin-left:20px; color:#fff; font-size:25px;}
 .container, #hero, .hero-content {
->>>>>>> origin/develop
   -webkit-transition: padding-top .2s; /* For Safari 3.1 to 6.0 */
   -webkit-transition-timing-function: linear; /* Safari */
   transition: padding-top .2s;
@@ -151,10 +150,7 @@
   transition-timing-function: linear;
   max-height: 0;
   overflow: hidden;
-<<<<<<< HEAD
-=======
   right: -28%;
->>>>>>> origin/develop
   list-style-type: none;
   padding: 0;
   position: absolute;
