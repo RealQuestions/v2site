@@ -6,38 +6,94 @@ permalink: /whoWeAre/
 weight: 2
 ---
 
-We provide a way for people to ask questions of political leaders. We also provide a record of what the public wants to know, whether or not they receive an answer. We enable users to develop effective questions, and show the extent of user support for them. The key focus of our site is getting agreement amongst our users on key questions to politicians, through our discussions pages.
-The vision of Real Questions is to improve political accountability through a website that allows people to engage with each other online to create effective questions to all elected politicians in Australia.
+<p class="txt-italic">
+	 Real Questions aims to harness online public participation to generate increased
 
-**Who is "Real Questions"?**
+	political accountability, presenting the concerns of the public, including questions to 
 
-Real Questions is a non-profit organisation, legally registered as a company limited by guarantee in March 2010; the ABN is 43 142 636 093. It was started by Charles and David Jago, who have a background of involvement in public participation and facilitation. Funding (mostly for legal and accounting costs) is paid by the Jago family. No salaries are paid - we are all volunteers.
+	politicians. Real Questions is an innovative, open and capable non-profit 
 
-There are currently three people on the board: Charles, David and Jack Jago. Within the coming year, we intend that Real Questions will be led by a board of respected, transparently independent group of men and women from a range of occupational and political backgrounds, Australian states and age groups. It will include people with experience in social &/or political participation, media, politics (as former elected representatives, ideally covering multiple levels of government) as well as business and project management.
+	organisation which continues to evolve and grow. All staff in the organisation are 
 
-**We are all volunteers!**
+	volunteers. Real Questions is legally registered and based in Sydney, with all 
 
-Real Questions has no paid staff, and is entirely operated by volunteers. The project relies entirely on volunteers. Also, we don't have an office. Real Questions operates substantially as a virtual organisation. We have volunteers in mostly Sydney, but also in Brisbane. We use Skype for regular meetings, but get together in person about once a month.
+	volunteers covered by insurance.
+</p>
+<p>
+The vision of Real Questions is to improve political accountability through presenting the concerns and questions of the public online through open processes reflecting public interest and interaction rather than political spin. We want a record of key public concerns and questions, whether or not they receive a response, engaging with all mainstream political perspectives. We also offer a way for people to ask a question of any elected politician in Australia, who will also be able to connect and respond if they choose. 
+We want to develop better ways of enhancing online public conversations about key issues and questions, but we are not a chat room or political blog. We are building new ways to collect and disseminate broad input, and promote online conversation. Our focus is on ways to for people to briefly present specific concerns and identify the level of support for those concerns. Real Questions began as a website, but is evolving to an online presence accessible via social media and other online platforms. We are planning ways to enable campaigners to raise and highlight issues of concern, with questions addressed to specific politicians and key results fed back to those in the campaigns.
+</p>
 
-The main form of revenue for the venture is expected to be website advertising, supported by some individual donations. No corporate donations will be accepted. However, grants from non-corporate organisations such as foundations may be accepted where the board believes that they do not compromise the independence of Real Questions.
+<h3>Who is “Real Questions?</h3>
 
-Note: Charles Jago is a member of the Greens, but Real Questions is not associated with the Greens in any way. As stated above, it is anticipated that the board for Real Questions will also include people from other party backgrounds and perspectives (but not serving politicians or paid political operators). Real Questions will remain strongly independent.
+<p>
+	Real Questions is a non-profit organisation started in 2008 by Charles and David Jago, who have a 
 
-**Acknowledgements**
+	background of involvement in public participation and facilitation. It was legally registered as a company 
 
-Our fantastic volunteers: Philippe Auriat, TD Bhavana, Jim Donovan, Ben Greenaway, Patrick Grossman, Eddy Hughes, Alex Jago, Charles Jago, David Jago, Jack Jago, Jessica Kum, Benedetta Loconte, Anusha Mahalingam, Rashmi Paramashivaiah, Erle Pereira, Saurabh Saxena, Ken Simpson, Shelley Smith.
+	limited by guarantee in March 2010; the ABN is 43 142 636 093. The organisation's constitution does not 
 
-**More volunteers needed!**
+	allow paying profits to members or paying directors' fees.
 
+	Real Questions provides ongoing training and mentoring for its technical team in Sydney. All Real 
+
+	Questions systems are released under the open source Affero General Public license v3.
+
+	Charles Jago is Executive Director. Technical Director Erle Pereira and Saurabh Saxena provide key 
+
+	technical leadership. Real Questions board members include Charles Jago, David Jago, Jack Jago, Erle 
+
+	Pereira and Saurabh Saxena. As we grow, we intend that Real Questions will be led by a board of 
+
+	respected, transparently independent group of men and women from a range of occupational and political 
+
+	backgrounds, Australian states and age groups. The range of experience should cover social &/or political 
+
+	participation in media and politics as well as business, information technology and project management. 
+
+	Former elected representatives would ideally have backgrounds across multiple levels of government and 
+
+	multiple parties, but would not be serving politicians or paid political operators. Note: Charles Jago is a 
+
+	member of the Greens, but Real Questions is not associated with the Greens in any way. 
+
+	Current funding comes from individual donations from the Jago family. No corporate donations are 
+
+	accepted, although grants from non-corporate organisations such as foundations could be accepted where 
+
+	the board believed that they did not compromise the independence of the organisation. The main costs are 
+
+	for insurance, legal registration and accounting.
+</p>
+
+<h3>We are all volunteers!</h3>
+<p>
+	Real Questions has no paid staff, and relies entirely on volunteers. Also, we don't have an office. Real
+
+	Questions operates substantially as a virtual organisation. We have volunteers mostly in Sydney, but also 
+
+	in Brisbane. Volunteers work at homeand get together in person every week or two. We also use Skype 
+
+	for regular meetings.
+</p>
+<h3>Acknowledgements – Our fantastic volunteers:</h3>
+<p>
+	Current volunteers: TD Bhavana, Ben Greenaway, Patrick Grossman, Eddy Hughes, Alex Jago, Charles 
+
+	Jago, David Jago, Jack Jago, Rashmi Paramashivaiah, Erle Pereira, Saurabh Saxena, Chris Andronikos 
+
+	and James Conley.
+
+	Past volunteers: Philippe Auriat, Jim Donovan, Jessica Kum, Benedetta Loconte, Anusha Mahalingam, 
+
+	Ken Simpson, Shelley Smith.
+</p>
+<h3>More volunteers needed!</h3>
+<p>
 We currently need people with the following skills:
+Social media manager
+To respond, please use the response form on the "Contact" section of the website, or call the contact number below. Please be patient, as this is being managed by a volunteer with limited time!
+</p>
+<h3>Contact</h3>
 
-    Social media manager
-
-To respond, please use the response form on the "Contact" section of the website, or call the contact number below. Please be patient, as at the moment this is being managed by a volunteer with limited time!
-
-**Next Steps**
-
-The site is now complete, although we are working to improve a lot of its features, and improve quality. Our current focus is building an online community around the site.
-
-Contact
-Charles Jago 0403 902 613  or  Erle Pereira 0434 358 351 
+Charles Jago 0403 902 613 or Erle Pereira 0434 358 351, or use the contact page. <a href="{{"/contactUs/"| prepend: site.baseurl }}">Contact Us</a> 

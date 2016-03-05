@@ -10,7 +10,7 @@ Welcome to "Real Questions", a service owned by Real Questions ABN 43 142 636 06
 
 These terms of use are designed to support positive participation which enables our users and visitors to identify and present their concerns and questions, with the aim of building greater accountability of political representatives. 
 
-**1. CONTRACT**
+<h3>1. CONTRACT</h3>
 
 1.1 By accessing, using, submitting information to, or downloading material through the Real Questions service you agree to follow and be bound by these Terms of Use which constitutes a legal contract. These Terms of Use are binding on you immediately. These Terms of Use apply to you whether you are browsing anonymously or are a user of the service and no matter what your class, level or status of member registration, or whether you interact with Real Questions through a social media app such as the Real Questions Facebook app. 
 
@@ -20,7 +20,7 @@ These terms of use are designed to support positive participation which enables 
 
 1.4 Specific service or website areas, apps, sections, communities, and discussion groups may also have additional guidelines which govern your use, you must comply with them in addition to these Terms of Use. By participating in a user-created area, you agree to be bound to the rules of that area.
 
-**2. LICENCE, PERMITTED USE AND PROHIBITIONS**
+<h3>2. LICENCE, PERMITTED USE AND PROHIBITIONS</h3>
 
 2.1 Real Questions hereby grants you a limited, personal, non-commercial, non-exclusive, non-transferable, free of charge licence to use the service. These Terms of Use are revocable at any time without notice and with or without cause.
 
@@ -42,7 +42,7 @@ These terms of use are designed to support positive participation which enables 
 
 (e) use automated scripts to collect information from or otherwise interact with the service without express approval from Real Questions.
 
-**3. INTELLECTUAL PROPERTY** 
+<h3>3. INTELLECTUAL PROPERTY</h3>
 
 3.1 The content of the service is protected by law including copyright in its layout, text, images, photographs, illustrations, animations, audio and video clips, plus any newsletters, mail-outs or other materials associated with it. This content (excluding content submitted by users) is the property of Real Questions, unless noted otherwise. No part of the content may be used, copied, modified, distributed, republished or transmitted, except for your personal and non-commercial use, unless expressly authorised by Real Questions. All rights not expressly granted to content in the service are reserved by Real Questions, unless noted otherwise.
 
@@ -56,7 +56,7 @@ These terms of use are designed to support positive participation which enables 
 
 3.6 All names, logos and signs in the service are the trade marks of their respective owners.
 
-**4. USER FACILITIES**
+<h3>4. USER FACILITIES</h3>
 
 4.1 User content
 
@@ -102,15 +102,15 @@ c) Security
 
 Registered users agree that they are responsible for the security and use of any user names or passwords needed to access or use the service. They must take all reasonable steps to ensure that their user names and passwords are kept confidential and secure. Registered users must not allow any third party or unauthorised person to access the service.
 
-**5. THIRD PARTY PRODUCTS AND SERVICES**
+<h3>5. THIRD PARTY PRODUCTS AND SERVICES</h3>
 
 No endorsement, recommendation or approval of any third party or its products, services, or websites is intended by any content, links or third party advertisements (including any banner ads containing embedded hyperlinks) on or to the service. Links are provided only as a convenience. Some third party advertisements contain representations or offers by the third party advertiser which you can accept by linking to the advertiser's website and executing the relevant transaction. Such offers are not made by Real Questions, and it is not responsible to you for the goods or services you buy on the third party website.
 
-**6. INDEMNITY**
+<h3>6. INDEMNITY</h3>
 
 You indemnify Real Questions from and against all claims, demands, actions, losses and damages, costs, charges, fines and expenses (including but not limited to reasonable costs and disbursements on a solicitor and client basis) arising from or incurred due to any comments, submissions, posts and materials made or added by you or authorised by you for the service.
 
-**7. DISCLAIMERS AND LIMITATION OF LIABILITY**
+<h3>7. DISCLAIMERS AND LIMITATION OF LIABILITY</h3>
 
 7.1 Under these Terms of Use your use of the service is at your risk. Real Questions is not liable to you or anyone else for any damage or loss in connection with use of the service or any comment, submission, post or material on the service. You should not act on the basis of anything contained in the service without first obtaining any necessary or prudent professional advice. Real Questions is not responsible for any damage suffered from the direct or indirect use of the service. This includes, but is not limited to: expenses and loss of data resulting from delays, non-deliveries, mis-deliveries, or service interruptions caused by the negligence, errors or omissions of Real Questions, its officers, employees and contractors, editors, moderators, consultants, and authors.
 
@@ -122,7 +122,7 @@ You indemnify Real Questions from and against all claims, demands, actions, loss
 
 7.5 Further, Real Questions, its officers, employees and contractors; editors, moderators, consultants, and authors with content on the service; and Internet service providers hosting the service, accept no liability for any direct, indirect, incidental, consequential, special, or punitive damage (including any loss of profit, revenue or data) whatsoever and howsoever caused, arising from access, use, downloading, or reliance by you or any third party on or of any representation, information, product or service provided on, via or involving the service, whether in an action of contract, tort (including negligence), criminal law, property, trust, unjust enrichment or statutory law.
 
-**8. GENERAL**
+<h3>8. GENERAL</h3>
 
 8.1 Composition
 

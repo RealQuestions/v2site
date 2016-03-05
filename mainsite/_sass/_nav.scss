@@ -12,21 +12,75 @@
 }
 
 .brand {
-  -webkit-transition: width .2s, margin-top .2s; /* For Safari 3.1 to 6.0 */
-  -webkit-transition-timing-function: linear; /* Safari */
-  transition: width .2s, margin-top .2s;
-  transition-timing-function: linear;
+  //-webkit-transition: font-size .2s, margin-top .2s; /* For Safari 3.1 to 6.0 */
+  //-webkit-transition-timing-function: linear; /* Safari */
+  //transition: font-size .2s, margin-top .2s;
+  //transition-timing-function: linear;
   color: grey;
   float: left;
   font-family: 'Exo 2', sans-serif;
-  width: 270px;
-  margin-left: 50px;
+  width: auto;
+  margin-left: 10px;
 }
+//.brand div {float:left;}
+//.brand a {font-size:72px;}
+//.brand a:hover {text-decoration:none;}
+
+.brand a:hover {
+  color: #337ab7;
+}
+
+.logoR {
+  -webkit-transition: font-size .2s, margin-top .2s; /* For Safari 3.1 to 6.0 */
+  transition: font-size .2s, margin-top .2s;
+  float: left;
+  font-size: 72px;
+  color:#fff;
+}
+
+.logoO {
+  -webkit-transition: font-size .2s, margin-top .2s; /* For Safari 3.1 to 6.0 */
+  transition: font-size .2s, margin-top .2s;
+  float: left;
+  font-size: 45px;
+  color:#4B94CF;
+  margin-top:11px;
+}
+
+.question {
+  -webkit-transition: font-size .2s, margin-top .2s; /* For Safari 3.1 to 6.0 */
+  transition: font-size .2s, margin-top .2s;
+  float: left;
+  transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  margin-top:35px;
+  margin-left:-10px;
+  font-size: 45px;
+}
+
+.tagline {
+  -webkit-transition: opacity .2s, margin-top .2s; /* For Safari 3.1 to 6.0 */
+  transition: opacity .2s, margin-top .2s;
+  float: left;
+  margin-top:50px;
+  margin-left:20px;
+  color:#fff;
+  font-size:25px;
+}
+
+//.brand div.logoO, .brand div.question {font-size:45px; margin-top:11px; color:#4B94CF;}
+
+//.brand div.question { transform: rotate(270deg); -webkit-transform: rotate(270deg); -moz-transform: rotate(270deg); margin-top:37px; margin-left:-10px;}
+
+//.brand .tagline {margin-top:50px; margin-left:20px; color:#fff; font-size:25px;}
+.heading-wrapper, #hero, .hero-content {
 .brand div {float:left;}
 .brand a {font-size:72px;}
 .brand a:hover {text-decoration:none;}
 .brand div.logoR {color:#fff; margin-right: -5px;  font-weight: bold;}
 .brand div.logoO, .brand div.question {font-size:52px; margin-top:7px; font-weight:bold; color:#4B94CF;}
+
 .brand div.question { 
   transform: rotate(-48deg); 
   -webkit-transform: rotate(-48deg);
@@ -36,9 +90,12 @@
   margin-left:-7px;
   
   font-weight:bold;
-  font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif; }
+  font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif; 
+}
+}
 .brand .tagline {margin-top:50px; margin-left:20px; color:#fff; font-size:25px;}
-.container, #hero, .hero-content {
+
+.heading-wrapper, #hero, .hero-content {
   -webkit-transition: padding-top .2s; /* For Safari 3.1 to 6.0 */
   -webkit-transition-timing-function: linear; /* Safari */
   transition: padding-top .2s;
@@ -116,13 +173,16 @@
   color: #000 !important;
 }
 
-.dropdown:hover>.dropdown-menu-test {
+/*
+.dropdown-menu-test-hover {
   max-height: 200px;
   opacity: 1;
 }
+*/
 
 .dropdown-menu-test-active {
   max-height: 200px;
+  opacity: 1;
 }
 
 .li-sub {
@@ -145,7 +205,7 @@
 /*Navbar Button------------------------------------------*/
 
 /*Fixes the button sizing in firefox*/
-button::-moz-focus-inner {
+button::-moz-focus-inner, button::-webkit-focus-inner {
   border: 0;
   padding: 0;
 }
@@ -161,7 +221,7 @@ button::-moz-focus-inner {
   padding-bottom: 10px;
   position: absolute;
   right: 10px;
-  top: 18px !important;
+  top: 30px !important;
 }
 
 .nav-button-active {
@@ -181,10 +241,10 @@ button::-moz-focus-inner {
 
 /*Media Queries ---------------------------------*/
 
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 760px){
   .brand {
-    margin-top: 0px;
-    width: 390px;
+    margin-top: 0;
+    width: 280px;
   }
 
   .nav-ul {
@@ -194,35 +254,61 @@ button::-moz-focus-inner {
     transition-timing-function: linear;
     margin: 33px 0 0;
   }
-
+  /*
+  .dropdown:hover>.dropdown-menu-test {
+    max-height: 200px;
+    opacity: 1;
+  }
+  */
   .nav-button {
     display: none;
   }
 
-  /*Scroll effects--------*/
+  /*Scroll effects (added in nav.js)--------*/
   .header-scroll {
     height: 60px;
   }
+  
+  //.brand-scroll {
+    //margin-top: 12px;
+    //width: 270px;
+  //}
+  
 
-  .brand-scroll {
-    /*margin-top: 12px;*/
-    width: 270px;
+  .logoR-scroll {
+    font-size: 45px;
   }
-  .brand-scroll .tagline {display:none;}
-  .brand-scroll .logoR {font-size:60%;}
-  .brand-scroll .logoO {font-size: 45% !important; margin-top: 2px !important;}
-  .brand-scroll .question {font-size: 45% !important; margin-top: 22px !important;}
+
+  .logoO-scroll {
+    margin-top: 3px;
+    font-size: 35px;
+  }
+  
+  .question-scroll {
+    margin-top: 22px;
+    font-size: 35px;
+  }
+
+  .tagline-scroll {
+    margin-top: 20px;
+    opacity: 0;
+  }
+
+  //.brand-scroll .tagline {display:none;}
+  //.brand-scroll .logoR {font-size:60%;}
+  //.brand-scroll .logoO {font-size: 45% !important; margin-top: 2px !important;}
+  //.brand-scroll .question {font-size: 45% !important; margin-top: 22px !important;}
 
   .nav-ul-scroll {
     margin-top: 0;
   }
 
-  .container-scroll {
+  .heading-wrapper-scroll {
     padding-top: 70px;
   }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 760px){
   .header {
     height: auto;
     overflow: auto;
@@ -242,7 +328,7 @@ button::-moz-focus-inner {
     -webkit-transition-timing-function: linear; /* Safari */
     transition: max-height .8s;
     transition-timing-function: linear;
-    background-color: #B57676;
+    background-color: #6F6F6F;
     clear: both;
     display: block;
     max-height: 0;
@@ -270,19 +356,19 @@ button::-moz-focus-inner {
     text-align: left;
   }
 
-  .container, #hero, .hero-content {
-    padding-top: 80px;
+  .heading-wrapper, #hero, .hero-content {
+    padding-top: 0 !important;
   }
 }
 
-@media (min-width: 760px) and (max-width: 760px) {
+@media only sreen and (min-width: 760px) and (max-width: 760px){
   .header {
     height: auto;
     overflow: auto;
   }
 
   .brand {
-    margin-top: 30px;
+    /*margin-top: 30px;*/
     width: 270px;
   }
 

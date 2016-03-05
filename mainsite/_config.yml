@@ -1,8 +1,11 @@
 name: "RealQuestions"
 description: "RealQuestions Australia"
 
+url: "http://localhost:4000"
+#baseurl: "https://realquestions.net.au/fbapp"
+
 #url: "http://localhost:4000"
-baseurl: "https://realquestions.net.au"
+#baseurl: "https://realquestions.net.au"
 # paginate: 10
 # gems: [jekyll-paginate]
 # paginate_path: "page:num"
