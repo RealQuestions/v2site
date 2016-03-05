@@ -183,22 +183,11 @@ fb.views.Post = Backbone.View.extend({
 
     postMessage: function () {
         var status = {
-                name:$('.itemName').val(),
-                link:'https://realquestions.net.au/assets/fbapp/earlyaccess/' + $('.picture').val(),
-                description:$('.description').val(),
-                message: 'Real Questions #RQau ' + 'https://realquestions.net.au/fbapp/assets/earlyaccess/' + $('.picture').val() + '-sm.jpg',
-            		message_tags:  {
-          		  "0": [
-              		{
-    		            "id": "261267947304538",
-            		    "name": "Real Questions",
-    		            "offset": 0,
-    		            "length": 14,
-    		            "type": "page"
-              	  	 }
-              		]}        		
+                link:'https://realquestions.net.au/discussions/' + $('.picture').val(),
+                description:$('.itemName').val(),
+                message:  $('.itemName').val() + $('.description').val(),      		
             };
-        FB.api('/me/feed', 'post', status, function(response) {
+        FB.api('/v2.5/261267947304538/feed', 'post', status, function(response) {
             if (response && response.id) {
                 alert('Your post was published.');
             } else {
