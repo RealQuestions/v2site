@@ -187,7 +187,6 @@ fb.views.Post = Backbone.View.extend({
                 //description:$('.itemName').val(),
                 message:  $('.itemName').val() + "\n" + $('.description').val(),
             };
-        console.log (status);
         FB.api('/261267947304538/feed', 'post', status, function(response) {
             if (response && response.id) {
                 $('#contentactions').html('Your post was published. ');

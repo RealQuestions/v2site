@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: earlyaccess
 title:  Early Access 
 permalink: /earlyaccess/
 weight: 2
