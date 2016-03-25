@@ -184,14 +184,14 @@ fb.views.Post = Backbone.View.extend({
     postMessage: function () {
         var status = {
                 link:'https://realquestions.net.au/discussions/' + $('.picture').val(),
-                description:$('.itemName').val(),
-                message:  $('.itemName').val() + $('.description').val(),      		
+                //description:$('.itemName').val(),
+                message:  $('.itemName').val() + "\n" + $('.description').val(),
             };
-        FB.api('/v2.5/261267947304538/feed', 'post', status, function(response) {
+        FB.api('/261267947304538/feed', 'post', status, function(response) {
             if (response && response.id) {
-                alert('Your post was published.');
+                $('#contentactions').html('Your post was published. ');
             } else {
-                alert('Your post was not published.');
+                $('#contentactions').html('Your post was not published.' + response.toSource() );
             }
         });
         return false;
@@ -233,7 +233,7 @@ fb.views.PostUI = Backbone.View.extend({
                 if (response && response.id) {
                     alert('Your post was published.');
                 } else {
-                    alert('Your post was not published. ' . response);
+                    alert('Your post was not published. ' );
                 }
             }
         );
