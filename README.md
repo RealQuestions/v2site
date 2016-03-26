@@ -1,7 +1,7 @@
 # v2site
 Front end web development. This is the new website code, built for the new version 2 engine.
 
-Make changes to develop branch and when happy, send a pull request... the usual. If you feel you can be a regular contributor & wan to join us... get in touch, there is a load of stuff to be done, not documented here yet, but will be coming on as time permits us.
+Make changes to develop branch and when happy, send a pull request... the usual. If you feel you can be a regular contributor & wish to join us... get in touch, there is a load of stuff to be done, not documented here yet, but will be coming on as time permits us.
 
 To get it working locally:
 1. Check out the repo (Make changes to the develop branch only please as far as possible)
