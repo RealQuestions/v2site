@@ -51,12 +51,14 @@
   -webkit-transition: font-size .2s, margin-top .2s; /* For Safari 3.1 to 6.0 */
   transition: font-size .2s, margin-top .2s;
   float: left;
-  transform: rotate(270deg);
-  -webkit-transform: rotate(270deg);
-  -moz-transform: rotate(270deg);
+  transform: rotate(290deg);
+  -webkit-transform: rotate(290deg);
+  -moz-transform: rotate(290deg);
   margin-top:35px;
-  margin-left:-10px;
+  margin-left:-7px;
   font-size: 45px;
+  color:#4B94CF;
+  font-family: Times New Roman,Times,TimesNewRoman,Baskerville,Georgia,serif;
 }
 
 .tagline {
