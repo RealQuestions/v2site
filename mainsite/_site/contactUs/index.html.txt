@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+    <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/image-picker.css">
+    <link href='https://fonts.googleapis.com/css?family=Exo+2:400,300,500,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css ">
+    <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.min.css ">
+
+    <!-- JS Scripts -->
+    <script src="/node_modules/jquery/dist/jquery.min.js"> </script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"> </script>
+    <script src="/js/nav.js"> </script>
+    <script src="/js/image-picker.min.js"> </script>
+
+    <!-- Typekit --> 
+    <script src="https://use.typekit.net/rdl5eyi.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+</head>
+
+
+
+
+<body class="earlyaccess">
+    <div id="fb-root"></div>
+
+    <div class="header">
+
+    <div class="container"> 
+
+    <div class="brand">
+		<a href="/index.html">
+			<div class="logoR">R</div>
+			<div class="logoO">O</div>
+			<div class="question">?</div>
+		</a>
+		<div class="tagline">Real Questions</div>
+	</div>
+
+    <div class="nav-wrapper">
+        <nav>
+            <ul class="nav-ul">
+                <li class="nav-li"><a href="/">Home</a></li>
+                <li class="nav-li dropdown">
+                    <a role="button" class="a-dropdown">About Us <span class="caret"></span></a>
+                    <ul class="dropdown-menu-test">
+                        <li class="nav-li li-sub"><a href="/whoWeAre/ " class="a-sub">Who We Are</a></li>
+						<li class="nav-li li-sub"><a href="/privacy/ " class="a-sub">Privacy Policy</a></li>
+                        <li class="nav-li li-sub"><a href="/terms/" class="a-sub">Terms of Use</a></li>
+                    </ul>
+                </li>
+                <li class="nav-li"><a href="/contactUs/">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <button type="button" class="nav-button">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+    </button> 
+
+    </div> <!-- End Container -->
+</div>
+
+    <div class="heading-wrapper">
+        <div class="heading col-xs-12">
+            <h1>Contact Us</h1>
+        </div>
+    </div>
+
+    <div class="container">
+
+    <div class="main col-xs-12 col-md-8 col-lg-9">
+        <form action=" " class="contact-form">
+    <label for="name">Your Name</label>
+    <br />
+    <input type="text" id="name" class="form-el form-txt-box">
+    <br />
+
+    <label for="email">Your e-mail address</label>
+    <br />
+    <input type="text" id="email" class="form-el form-txt-box">
+    <br />
+
+    <label for="subject">Subject</label>
+    <br />
+    <input type="text" id="subject" class="form-el form-txt-box">
+    <br />
+
+    <label for="category">Category</label>
+    <br />
+    <select id="category" class="form-el form-select-box">
+        <option value="general-enquiries" selected>General Enquiries</option>
+        <option value="design-issues">Design Issues</option>
+        <option value="moderators">Moderators</option>
+        <option value="support">Support</option>
+        <option value="technical-issues">Technical Issues</option>
+        <option value="volunteer">Volunteer</option>
+        <option value="website-feedback">Website Feedback</option>
+    </select>
+    <br />
+
+    <label for="message">Message</label>
+    <textarea cols="4" id="message" class="form-el form-txt-area">
+
+    </textarea>
+    <br />
+
+    <input type="submit" id="submit" value="Send Message">
+</form>
+
+    </div>
+
+    <div class="side col-xs-12 col-md-4 col-lg-3">
+        <div class="sidebar-content">
+
+</div>
+
+    </div>
+
+    </div> <!-- End Container -->
+
+    <section id ="footer">
+
+    <!-- PAGE | CONTACT -->
+    <section id ="contact">
+
+        <div class="pages black-bg white page-contact" id="page-contact">
+            <div class="container-fluid">
+                <!-- Header -->
+                <header>
+                    <h4 class="line-divider align-center"></h4>
+                    <center>
+                      <h1 >Keep in Touch </h1>
+                    </center>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 align-center">
+                          <center>
+                             <p class="form-txt">
+                                Enter your details below to receive pre-launch updates.
+                            </p>
+                          </center>
+                        </div>
+                    </div>
+                </header>
+            
+                <!-- End Header -->
+
+                    <div class="row-fluid">
+                        <!-- Contact form -->
+                        <div class="col-xs-12 text-center">
+
+                            <!-- Begin MailChimp Signup Form -->
+                            <div id="mc_embed_signup"  >
+                            <form action="//realquestions.us5.list-manage.com/subscribe/post?u=973f087de351e6cb638b7019c&amp;id=f30229680f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div class="mc-field-group">
+                                <input type="text" value="" name="FNAME" class="footer-txt-box" id="mce-FNAME" style=" width:400px; height:40px;" placeholder=' Name'>
+                            </div>
+
+                            <div class="mc-field-group">
+                                <input type="email" value="" name="EMAIL" class="required email footer-txt-box" id="mce-EMAIL" style=" width:400px; height:40px;" placeholder='Email'>
+                            </div>
+                            </div>
+
+                                <div id="mce-responses" class="clear">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;"><input type="text" name="b_2271a44a1e6272154eb90a940_8fce083892" value=""></div>
+                                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary"></div>
+                            </form>
+                            </div>  <!--End mc_embed_signup-->
+
+
+                      <div class="col-xs-12 contact-info">
+
+                        <!-- Contact information -->
+                        <div class="col-xs-12 col-sm-5">
+                            
+
+                            <div class="media">
+                                <div class="media-body">
+                                    <i class="fa fa-map-marker"></i> Sydney, Australia
+                                </div>
+                            </div>
+
+                            <div class="media">
+                                <div class="media-body">
+                                    <i class="fa fa-envelope"></i> <a href="mailto:info@realquestions.org">info@realquestions.org</a>
+                                </div>
+                            </div>
+
+                           
+
+                            <div class="social-icons">
+                                    <a href="https://www.facebook.com/RealQuestionsAustralia/?fref=ts"> <i class="fa fa-facebook"></i> </a>
+                                    <a href="https://twitter.com/RealQuestionsAU"> <i class="fa fa-twitter"></i> </a>
+                                    <a href="https://www.linkedin.com/company/1161388"> <i class="fa fa-linkedin"></i> </a>
+                            </div>
+                          </div>
+                        </div>   <!-- END Contact Information -->
+
+                    </div>
+
+            </div>
+
+    </section> <!-- END PAGE | Contact Section -->
+
+
+</section>
+</body>
+<script src="/lib/underscore-min.js"></script>
+<script src="/lib/backbone-min.js"></script>
+<script src="/js/utils.js"></script>
+<script src="/js/app.js"></script>
+<script src="/js/views.js"></script>
+<script src="/js/models.js"></script>
+<script src="/js/facebook.js"></script>
+<script src="/js/typekit.js"></script>
+
+</html>

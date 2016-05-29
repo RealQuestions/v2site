@@ -1,38 +1,56 @@
-#features{
+#home-page {
+     background-image: url(../assets/rectangles.png);
+     background-repeat: repeat;
+     background-position: top left;
+     background-attachment: fixed;
+}
+
+#features {
+  padding-top:50px;
+  background-color:white;
+}
+
+#features, #device-features{
 
   .features{
+  //   background-image: url(../assets/bg-squares-2.png);
 
   }
 
-  .feature-full{
+  .full-feature{
    margin-top:60px;
    margin-bottom:60px;
   }
 
   h2{
     font-family: 'Exo 2', sans-serif;
-    margin-bottom:80px;
+    margin-bottom: 30px;
     color: #444444;
     text-align: center;
-    font-weight: 300;
+    font-weight: 600;
   }
 
   h3{
     font-family: 'Exo 2', sans-serif;
-    font-size: 35px;
+    font-size: 1.7em;
     font-weight: 300;
     text-align: center;
     color: #1f1f1f;
   }
 
-
   p{
+    font-family: "proxima-nova";
+    font-size:  1.3em;
     text-align: center;
     margin-bottom: 30px;
     line-height: 150%;
     font-weight: 300;
     color: #696969;
-    font-size: 16px;
+
+  }
+
+  .byline {
+        margin-bottom: 80px;
   }
 
   .fa {
@@ -48,23 +66,33 @@
     margin-bottom:60px;
   }
 
+  @media only screen and (max-width: 991px  ) {
+    img {
+        margin-top:60px;
+    }
+  }
+
+
+
 }
 
+hr{
+    margin: 27px 0;
+    border: 0;
+    border-top: 1px solid #bbbbbb;
+    border-bottom: 1px solid #ffffff;
+}
 
-/* Feautre Section - Page-About */
+#device-features{
+  background-color: #4C96D1;
 
-#features2 {
-
-  .feature-row {
-  padding: 100px 0px 100px 0px
+  h2 {
+    color:white;
+	margin-top:30px;
   }
 
-   .feature-row .byline {
-  }
-
-   .feature-row .img-circle {
-    width:25%!important;
-    height:25%!important;
+  p{
+    color:white;
   }
 
 }

@@ -4,14 +4,13 @@
 $nav-color: #fff;
 $color: #333;
 $font-size: 2em;
-$container-width: 1000px;
 $main-width: 650px;
 $side-width: 275px;
 $header-color: #333;
 $header-h1-color: #333;
 $header-h1-size: 20px;
 $hr-color: #fff;
-
+#footer #contact .contact-info a {color:#fff !important;}
 $blue: #0071AB;
 
 @import
@@ -19,5 +18,10 @@ $blue: #0071AB;
         "layout",
         "nav",
         "hero",
-        "features"
+        "features",
+        "feed",
+        "sidebar",
+        "mdPages",
+    	"footer"
 ;
+

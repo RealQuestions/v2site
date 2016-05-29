@@ -1,0 +1,40 @@
+<p>If you granded the publish_actions permission to the application, you can post a message to your feed.</p>
+
+<form class="form-horizontal">
+    <div class="control-group">
+        <label class="control-label">Question summary</label>
+        <div class="controls">
+            <input type="text" class="input-xxlarge itemName" value=""/>
+        </div>
+    </div>
+    
+    <div class="control-group">
+        <label class="control-label">Select a category to suit</label>
+<select class="image-picker picture show-html">
+  <option data-img-src="/assets/earlyaccess/climatechange-sm.jpg" value="climatechange"> Climate Change  </option>
+  <option data-img-src="/assets/earlyaccess/economy-sm.jpg" value="economy"> Economy </option>
+  <option data-img-src="/assets/earlyaccess/employment-sm.jpg" value="employment"> Employment </option>
+  <option data-img-src="/assets/earlyaccess/transport-sm.jpg" value="transport"> Transport </option>
+</select>
+</div>
+<script>
+        $("select").imagepicker({
+          hide_select : true,
+          show_label  : false
+        })
+</script>
+      
+    <div class="control-group">
+        <label class="control-label">Question description</label>
+        <div class="controls">
+            <textarea class="form-control description" placeholder="Try to be as clear as possible, aim to highlight your intentions and your expectations. Also, please be kind & decent and above all positive." rows="8" cols="8"></textarea>
+        </div>
+    </div>
+    <div class="control-group">
+        <div class="controls">
+            <button class="btn btn-primary btn-large post">Post to Facebook</button>
+        </div>
+    </div>
+</form>
+
+

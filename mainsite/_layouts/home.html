@@ -6,25 +6,29 @@
 <body>
     {% include header.html %}
 
+<section id ="home-page">
+
       <section id ="hero">
             <!-- Header Image -->
 
           <article class="front image">
-             <div class="front-image" style="background-image:url(/assets/header-bg.jpg);opacity: 0.6; filter: alpha(opacity=50); z-index:10;  "></div>
+             <div class="front-image" style="background-image:url({{ my_page.url | prepend: site.baseurl }}/assets/header-bg.jpg);opacity: 0.6; filter: alpha(opacity=50); z-index:10;  "></div>
 
-                <div class = "container">
+            <div class = "container hero-content">
 
-                  <div class="hero-content col-xs-12">
-
-                    <center>
-                    <h1> Real <text class="blue">Q</text>uestions,  <br/>  Real<text class="blue"> A</text>nswers </h1>
-                    <p> Ask politicians questions that matter to you. Real Questions provides a platform for people to ask effective questions, and show the extent of user support for them.</p>
-                      <button style="color:white;" type="button" class="btn btn-primary cta">Get Early Acess <i class="fa fa-chevron-right"></i></button>'; } ?></a>
-                    </center>
-
+                  <!--<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">-->
+                  <div class="col-sm-12 col-md-6">
+                      <h1 class="hero-h1"> Democracy <br class="hero-h1-br" /> Online</h1>
+                      <p> Ask politicians questions that matter to you. Real Questions provides a platform for people to ask effective questions, and show the extent of user support for them.</p>
+                      <button type="button" class="btn btn-primary cta button-early-access" onclick="location.href='/earlyaccess/index.html';">Get Early Facebook Access <i class="fa fa-chevron-right"></i></button></a>
                   </div>
 
-                </div> <!-- End Container -->
+                 <!--<div class="image-container col-xs-4 col-sm-6 col-sm-offset-2 col-md-6 col-lg-6">-->
+                 <div class="image-container col-sm-12 col-md-6">
+                    <img class="responsive-image" src="{{ my_page.url | prepend: site.baseurl }}/assets/ipad+iphone.png">
+                  </div>
+
+              </div> <!-- End Container -->
 
            </article> <!-- End Header Image -->
 
@@ -34,19 +38,31 @@
 
     <div class="container">
 
-        <h2> Real Questions provides a platform for people to ask effective questions, and show the extent of user support for them. </h2>
+      <div class="col-md-12">
 
-      <div class="row">
+        <h2> Real Questions is an online platform that connects people with politicians. </h2>
+
+          <p class="byline">Whether it's climate change, health care, or infrastructure, Real Questions allows you to ask politicians the questions that matter to you.
+
+By making use of social media and Australia's largest online politcal database, Real Questions leverages your political question ensuring it gets the recognition and support it deserves. <br/><br/>
+
+Getting started on the Real Questions platform couldn't be easier. Simply create an account and start engaging with other politically minded people straight away. </p>
+
+
         <div class="feature col-md-4">
 
               <center>
 
               <i class="fa fa-comment"></i>
 
-            <h3>Create an Account </h3>
+            <h3>Engage with questions </h3>
 
-          <p>Ask politicians questions that matter to you. Real Questions provides a platform for people to ask effective questions, and show the extent of user support for them.</p>
+          <p>Explore the Real Questions website and read, comment and support political questions that you feel are important.</p>
+
+          <!-- Details button
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          -->
+
         </div>
 
       </center>
@@ -56,9 +72,13 @@
             <center>
             <i class="fa fa-users"></i>
 
-            <h3>Enage </h3>
-          <p>Ask politicians questions that matter to you. Real Questions provides a platform for people to ask effective questions, and show the extent of user support for them. </p>
+            <h3>Ask your questions </h3>
+          <p>Ask your own questions to the relevant politician or politician party and receive support and feedback from other users. </p>
+
+          <!-- Details button
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          -->
+
        </div>
 
               </center>
@@ -68,201 +88,160 @@
             <center>
           <i class="fa fa-thumbs-up"></i>
 
-            <h3> Ask Questions</h3>
-          <p>Ask politicians questions that matter to you. Real Questions provides a platform for people to ask effective questions, and show the extent of user support for them.  </p>
+            <h3> Get traction </h3>
+          <p>Get notified when politicians give an answer, and provide feedback and rebuttals. </p>
+
+          <!-- Details button
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          -->
+
         </div>
 
           </center>
 
-      </div>
+    </div> <!-- end col-12 -->
 
-      <div class="col-xs-12">
+  </div>
 
-        <img src="/assets/ipad-image-01.png"/>
-
-      </div>
-
-<section id ="features2">
-    <div class="pages page-about" id="page-about" >
-        <div class="container">
-
-            <!-- Feature Row 1 -->
-                <div class="row feature-row">
-                    <div class="col-xs-12 col-md-4">
-                      <h3>Search for politicans</h3>
-                       <p class="byline">Craft your secret identity, design your logo, and choose the causes you care about. Craft your secret identity, design your logo, and choose the causes you care about.. </p>
-                    </div>
-
-                    <div class ="col-xs-12 col-md-8 ">
-                       <img src="/assets/ipad-image-02.png"/>
-                    </div>
-
-                </div> <!-- End Feature Row 1 -->
-
-            <hr/>
-
-                <!-- Feature Row 2 -->
-                <div class="row feature-row">
-
-                    <div class ="col-xs-12 col-md-8">
-                       <img src="/assets/ipad-image-03.png"/>
-                    </div>
-
-                    <div class="col-xs-12 col-md-4">
-                         <h3>Support questions</h3>
-                         <p class="byline">Craft your secret identity, design your logo, and choose the causes you care about. Craft your secret identity, design your logo, and choose the causes you care about.. </p>
-                      </div>
-
-                </div> <!-- End Feature Row 2 -->
-
-            <hr/>
+</section>
 
 
-                 <!-- Feature Row 4 -->
-            <div class="row feature-row">
+<section id = "device-features">
 
-                    <div class ="span8">
-                       <img src="assets/images/covert-heroes-ipad-5.png"/>
-                    </div>
+  <div class ="container">
 
-                    <div class="span4">
-                         <h3>What do you stand for?</h3>
-                            <p class="byline">Complete jobs and earn rewards and skills for you and your team.
+    <center><h2>Upcoming Features</h2></center>
 
-                </div> <!-- End Feature Row 2 -->
+      <!-- Full Feature 1 -->
 
-            <hr/>
-
+      <div class="full-feature col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-100">
+              <img src="{{ my_page.url | prepend: site.baseurl }}/assets/ipad-image-02.png"/>
           </div>
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <h2>Australia's largest political database, one click away.</h2>
+            <hr/>
+            <p> Take advantage of Australia's largest online political database and find the politicians your looking for.  <br/></br>
+                Whether you're after your local representative or the Prime Minister, Real Questions advanced search functionality makes finding the right politicians and questions breeze. 
+            </p>
+          </div>
+      </div>
 
 
-        </div> <!-- End Container -->
-</div>
+       <!-- Full Feature 1 -->
 
-</section><!-- End Features 2
+      <div class="full-feature col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <h2>New Fresh design.</h2>
+            <hr/>
+            <p> We've reworked Real Questions from the ground-up. </p>
+          </div>
+          
+          <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-100">
+            <img src="{{ my_page.url | prepend: site.baseurl }}/assets/ipad.png"/>
+          </div>
+          
+        </div>
+
+      </div>
+
+	</div> <!-- End Container -->
 
 
 
+</section>
 
-    <!-- Footer -->
-    <div class="pages black-bg white page-contact" id="page-contact">
-        <div class="container">
-            <!-- Header -->
-            <header>
-                <h4 class="line-divider"></h4>
-                <h1 style="color:white" >Pre Register</h1>
-                <div class="row">
-                    <div class="span8 offset2">
-                        <p style="color:white" >
-                            Enter your details below to get early access to Covert Heroes and pre-launch notifications
-                        </p>
+<section id ="footer">
+
+    <!-- PAGE | CONTACT -->
+    <section id ="contact">
+
+        <div class="pages black-bg white page-contact" id="page-contact">
+            <div class="container-fluid">
+                <!-- Header -->
+                <header>
+                    <h4 class="line-divider align-center"></h4>
+                    <center>
+                      <h1 >Keep in Touch </h1>
+                    </center>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 align-center">
+                          <center>
+                             <p class="form-txt">
+                                Enter your details below to receive pre-launch updates.
+                            </p>
+                          </center>
+                        </div>
                     </div>
-                </div>
-            </header>
-            <!-- End Header -->
+                </header>
+			
+                <!-- End Header -->
 
-            <!-- Start Article -->
-            <article>
-                <div class="row-fluid">
-                    <!-- Contact form -->
-                    <div class="span12 text-center">
+                    <div class="row-fluid">
+                        <!-- Contact form -->
+                        <div class="col-xs-12 text-center">
 
-
-<!-- Begin MailChimp Signup Form -->
-<div id="mc_embed_signup"  >
-<form action="http://covertheroes.us3.list-manage.com/subscribe/post?u=2271a44a1e6272154eb90a940&amp;id=8fce083892" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate >
-<div class="mc-field-group">
-	<input type="text" value="" name="FNAME" class="" id="mce-FNAME" style=" width:400px; height:40px;" placeholder=' Name'>
-</div>
-
-<!--
-<div class="mc-field-group">
-	<input type="text" value="" name="LNAME" class="" id="mce-LNAME" style=" width:400px; height:40px;" placeholder='Last Name'>
-</div>
--->
-
-<div class="mc-field-group">
-	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" style=" width:400px; height:40px;" placeholder='Email'>
-</div>
-</div>
-
-	<div id="mce-responses" class="clear">
-		<div class="response" id="mce-error-response" style="display:none"></div>
-		<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;"><input type="text" name="b_2271a44a1e6272154eb90a940_8fce083892" value=""></div>
-	<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary"></div>
-</form>
-</div>
-
-<!--End mc_embed_signup-->
-
-                    <!-- End Contact form -->
-                  <div class="row-fluid">
-                    <!-- Contact information -->
-
-                    <div class="span 5   ">
-                        <div class="media">
-                            <div class="social-icons sicon-white pull-left">
-                                <a href="#" class="sicon-phone"><i>Phone</i></a>
+                            <!-- Begin MailChimp Signup Form -->
+                            <div id="mc_embed_signup"  >
+                            <form action="//realquestions.us5.list-manage.com/subscribe/post?u=973f087de351e6cb638b7019c&amp;id=f30229680f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div class="mc-field-group">
+                            	<input type="text" value="" name="FNAME" class="footer-txt-box" id="mce-FNAME" style=" width:400px; height:40px;" placeholder=' Name'>
                             </div>
-                            <div class="media-body smallFontBy08">
-                                (+61) 400 164 054
+
+                            <div class="mc-field-group">
+                            	<input type="email" value="" name="EMAIL" class="required email footer-txt-box" id="mce-EMAIL" style=" width:400px; height:40px;" placeholder='Email'>
                             </div>
-                        </div>
-                        <div class="media">
-                            <div class="social-icons sicon-white pull-left">
-                                <a href="#" class="sicon-place"><i>Location</i></a>
                             </div>
-                            <div class="media-body smallFontBy08">
-                                Sydney, Australia
+
+                            	<div id="mce-responses" class="clear">
+                            		<div class="response" id="mce-error-response" style="display:none"></div>
+                            		<div class="response" id="mce-success-response" style="display:none"></div>
+                            	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;"><input type="text" name="b_2271a44a1e6272154eb90a940_8fce083892" value=""></div>
+                            	<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary"></div>
+                            </form>
+                            </div>  <!--End mc_embed_signup-->
+
+
+                      <div class="col-xs-12 contact-info">
+
+                        <!-- Contact information -->
+                        <div class="col-xs-12 col-sm-5">
+                            
+
+                            <div class="media">
+                                <div class="media-body">
+                                    <i class="fa fa-map-marker"></i> Sydney, Australia
+                                </div>
                             </div>
-                        </div>
-                        <div class="media">
-                            <div class="social-icons sicon-white pull-left">
-                                <a href="#" class="sicon-mail"><i>email</i></a>
+
+                            <div class="media">
+                                <div class="media-body">
+                                    <i class="fa fa-envelope"></i> <a href="mailto:info@realquestions.org">info@realquestions.org</a>
+                                </div>
                             </div>
-                            <div class="media-body smallFontBy08">
-                                info@covertheroes.com
+
+                           
+
+                            <div class="social-icons">
+                                    <a href="https://www.facebook.com/RealQuestionsAustralia/?fref=ts"> <i class="fa fa-facebook"></i> </a>
+                                    <a href="https://twitter.com/RealQuestionsAU"> <i class="fa fa-twitter"></i> </a>
+                                    <a href="https://www.linkedin.com/company/1161388"> <i class="fa fa-linkedin"></i> </a>
                             </div>
-                        </div>
-                        <div class="media">
-                            <div class="social-icons sicon-white pull-left">
-                                <a href="#" class="sicon-clock"><i>Time zone</i></a>
-                            </div>
-                            <div class="media-body smallFontBy08">
-                                UTC / GMT +10
-                            </div>
-                            <br/>
-                            <br/>
-                              <div class="social-icons sicon-white bordered">
-                            <a href="https://www.facebook.com/CovertHeroes"class="sicon-facebook"><i>Facebook</i></a>
-                            <a href="https://twitter.com/CovertHeroes" class="sicon-twitter"><i>Twitter</i></a>
-                            <a href="#" class="sicon-linkedin"><i>LinkedIn</i></a>
-                            <a href="https://plus.google.com/111711834200790201838/posts" class="sicon-youtube"><i>Google +</i></a>
-                            <a href="http://www.pinterest.com/covertheroes/" class="sicon-pinterest"><i>Pinterest</i></a>
-                        </div>
+                          </div>
+                        </div>   <!-- END Contact Information -->
 
-                        </div>
-                    </div> <!-- END CONTACT -->
+                    </div>
+
+            </div>
+
+    </section> <!-- END PAGE | Contact Section -->
 
 
-                </div>
+</section>
 
-
-            </article>
-            <!-- End Article -->
-
-        </div>
-
-        <!-- Background map image -->
-        <div id="map-image">
-            <img src="assets/images/pages/contact/map_bck.jpg" alt="Treble">
-        </div>
-    </div>
-    <!-- END Footer | CONTACT -->
-
+</section> <!-- END HOME PAGE -->
 
 
 

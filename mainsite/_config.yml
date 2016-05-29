@@ -1,7 +1,8 @@
-name: "Site"
-description: "My Site"
+name: "RealQuestions"
+description: "RealQuestions Australia"
 
 url: "http://localhost:4000"
+#baseurl: "https://realquestions.net.au"
 
 # paginate: 10
 # gems: [jekyll-paginate]
